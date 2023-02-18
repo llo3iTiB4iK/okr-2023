@@ -1,0 +1,87 @@
+main{
+	font-family: Trebuchet MS;
+	font-size: 18px;
+}
+nav{
+	font-family: Courier New;
+	font-size: 24px;
+}
+caption{
+	font-size: 24px;
+}
+body{
+	text-align: center;
+	line-height: 24px;
+	background-color: #f1e6c5 !important;
+}
+ol,ul{
+	text-align: left;
+}
+h2{
+	font-weight: normal;	
+	text-shadow: -1px 1px 0 #41ba45,
+	1px 1px 0 #c63d2b,
+	1px -1px 0 #42afac,
+	-1px -1px 0 #c6c23f;
+}
+#REDPAGE{
+	background-color: red;
+}
+h1>img{
+	width:40px;
+}
+h2>img{
+	width:20px;
+}
+iframe{
+	border:0;
+	width:600px;
+	height:450px;
+}
+#auto_list img{
+	/*height:400px;*/
+	width:60%;
+}
+#pricelist{
+	width: 100%;
+	border-collapse: collapse;
+}
+#pricelist th,#pricelist td{
+	border:1px solid;
+	padding: 10px;
+}
+#pricelist thead{
+	background-color: mistyrose;
+}
+#price_includes{
+	width:80%;
+	margin-right: auto;
+	margin-left:auto;
+	text-align: left;
+	padding-left:5%;
+	border:0;
+}
+#price_includes td{
+	padding:15px;
+}
+#price_includes ul{
+	padding-left: 0;
+	list-style: none;
+}
+#price_includes ul>li:before{
+	content: '✔';
+    color: green;
+    margin-right:20px;
+}
+#price_includes td:hover{
+	border-spacing:100px;
+	transform: scale(1.04);
+	background-color: whitesmoke;
+}
+#rules{
+	text-decoration: underline dotted;
+	margin-left:1%;
+	padding-right:3%;
+	background:rgba(255,0,0,0.2);
+	text-align: justify;
+}
