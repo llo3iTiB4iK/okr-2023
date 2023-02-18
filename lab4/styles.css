@@ -171,3 +171,7 @@ img.shadowed{
 thead+tbody{
 	background-color: #FFFFE0;
 }
+nav a:hover{
+	font-size: 1.1em;
+	background-color: darkolivegreen;
+}
