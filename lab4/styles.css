@@ -69,8 +69,9 @@ iframe{
 	width: 95%;
 	border-collapse: collapse;
 }
-#pricelist tr:hover{
-	transform:scale(1.1);
+#pricelist tbody tr:hover{
+	font-size: 1.2em;
+	background-color: white;
 }
 #pricelist th,#pricelist td{
 	border:1px solid;
